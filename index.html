@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nike Product Class</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css"> <!-- 4 priority -->
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css"> <!-- 3 priority -->
+	<link rel="stylesheet" type="text/css" href="styles/layout.css"> <!-- 2 priority -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css"> <!-- 1 priority -->
+</head>
+<body>
+	<header class="ba-header" role="banner">
+		<div class="ba-container ba-clearfix">
+			<a href="#" class="ba-logo">
+				<img src="images/logo.png" alt="nike">
+			</a>
+			<nav class="ba-nav">
+				<ul class="ba-nav__list ba-clearfix">
+					<li class="ba-nav__item"><a class="ba-nav__link" href="#">Lifestyle</a></li>
+					<li class="ba-nav__item ba-nav__item--active"><a class="ba-nav__link" href="#">Running</a></li>
+					<li class="ba-nav__item"><a class="ba-nav__link" href="#">Football</a></li>
+					<li class="ba-nav__item"><a class="ba-nav__link" href="#">Skateboarding</a></li>
+				</ul>
+				<div class="ba-nav__hamburger">
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="ba-product">
+		<div class="ba-container ba-clearfix">
+			<div class="ba-slider ba-product__images">
+				<div class="ba-product__images1">
+					<img class="ba-slider ba-product__images-main" src="images/img_h.png">
+				</div>
+				<div class="ba-product__images2">
+					<div>
+						<ul>
+							<li><a href="#"><img src="images/img.png"></a></li>
+							<li><a href="#"><img src="images/img-1.png"></a></li>
+							<li><a href="#"><img src="images/img-2.png"></a></li>
+						</ul>
+					</div>
+					<button class="ba-scroll">
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="ba-product__info ">
+				<div class="ba-poduct__status">New</div>
+				<h2 class="ba-product__title">The <span class="ba-text-blue"> Running</span> has just begun</h2>
+				<div class="ba-clearfix">
+					<h3 class="ba-product__sub-title">Huarache</h3>
+					<div class="ba-product__rating">
+						<span class="ba-rating__star">&#9733;</span>
+						<span class="ba-rating__star">&#9733;</span>
+						<span class="ba-rating__star">&#9733;</span>
+						<span class="ba-rating__star">&#9733;</span>
+						<span class="ba-rating__star ba-rating__star--empty">&#9733;</span>
+					</div>
+				</div>
+				<div class="ba-product__price">$ 200</div>
+				<div class="ba-product__size">
+					<span>Size</span>
+					<ul class="ba-size-list ba-clearfix">
+						<li class="ba-size-list__item"><button>7</button></li>
+						<li class="ba-size-list__item"><button>8</button></li>
+						<li class="ba-size-list__item"><button>9</button></li>
+						<li class="ba-size-list__item"><button>10</button></li>
+						<li class="ba-size-list__item"><button>11</button></li>
+					</ul>
+				</div>
+				<button class="ba-btn ba-btn--prioritized">Add to cart</button>
+				<button class="ba-btn">Wishlist</button>
+			</div>
+			<button class="ba-cls">
+				<span></span>
+			</button>
+		</div>
+	</main>
+</body>
+</html>
